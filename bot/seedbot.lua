@@ -221,7 +221,7 @@ function create_config( )
     "all",
     "leave_ban"
     },
-    sudo_users = {110626080,103649648,0,tonumber(our_id)},--Sudo users
+    sudo_users = {67255537,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     realm = {data = 'data/moderation.json'},--Realms Id
     moderation = {data = 'data/moderation.json'},
@@ -231,11 +231,9 @@ An advance Administration bot based on yagop/telegram-bot
 https://github.com/SEEDTEAM/TeleSeed
 
 Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@Rondoozle [Developer]
-@seyedan25 [Manager]
-
+@black_hat_admin1 [Manager]
+@black_hat_admin03 [Assistant1]
+@black_hat_admin02 [Assistant2]
 Special thanks to
 awkward_potato
 Siyanew
@@ -243,101 +241,101 @@ topkecleon
 Vamptacus
 
 Our channels
-@teleseedch [English]
+@Indexzedspm [English-persian]
 ]],
     help_text = [[
 Commands list :
 
 !kick [username|id]
 You can also do it by reply
-
+###########################
 !ban [ username|id]
 You can also do it by reply
-
+###########################
 !unban [id]
 You can also do it by reply
-
+###########################
 !who
 Members list
-
+###########################
 !modlist
 Moderators list
-
+###########################
 !promote [username]
 Promote someone
-
+###########################
 !demote [username]
 Demote someone
-
+###########################
 !kickme
 Will kick user
-
+###########################
 !about
 Group description
-
+###########################
 !setphoto
 Set and locks group photo
-
+###########################
 !setname [name]
 Set group name
-
+###########################
 !rules
 Group rules
-
+###########################
 !id
 return group id or user id
-
+###########################
 !help
-
+###########################
 !lock [member|name|bots]
 Locks [member|name|bots] 
-
+###########################
 !unlock [member|name|photo|bots]
 Unlocks [member|name|photo|bots]
-
+###########################
 !set rules <text>
 Set <text> as rules
-
+###########################
 !set about <text>
 Set <text> as about
-
+###########################
 !settings
 Returns group settings
-
+###########################
 !newlink
 create/revoke your group link
-
+###########################
 !link
 returns group link
-
+###########################
 !owner
 returns group owner id
-
+###########################
 !setowner [id]
 Will set id as owner
-
+###########################
 !setflood [value]
 Set [value] as flood sensitivity
-
+###########################
 !stats
 Simple message statistics
-
+###########################
 !save [value] <text>
 Save <text> as [value]
-
+###########################
 !get [value]
 Returns text of [value]
-
+###########################
 !clean [modlist|rules|about]
 Will clear [modlist|rules|about] and set it to nil
-
+###########################
 !res [username]
 returns user id
 "!res @username"
-
+###########################
 !log
 will return group logs
-
+###########################
 !banlist
 will return group ban list
 
@@ -351,6 +349,7 @@ will return group ban list
 
 *Only owner can use res,setowner,promote,demote and log commands
 
+@indexzedspm
 ]]
 
   }
